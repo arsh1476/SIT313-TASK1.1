@@ -1,0 +1,106 @@
+h5.inline
+{
+    display: inline;
+    margin-right: 10px;
+}
+
+h5
+{
+    color:rgb(188, 8, 238);
+}
+
+.pht1:hover .txt 
+{
+    opacity: 1;
+}
+
+body 
+{
+    background-color: #F2F2F2;
+    font-family:  'Times New Roman', Times, serif;
+}
+  
+.txt 
+{
+    font-size: 25px;
+    font-weight: bold;
+    background-color:rgb(0, 0, 0, 0.389);
+    color:rgb(244, 239, 239);
+    text-align: center;
+    position: relative;
+    top: -75px;
+    border-radius: 4px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.pht2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.pht2 img
+{
+    border-radius: 30%;
+}
+
+.txt1
+{
+    font-size: 20px;
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+.line1,.line2
+{
+    font-weight: bold;
+    color:rgb(9, 12, 14);
+    text-align: center;
+}
+
+.txt3,.txt6
+{
+    font-size:32px;
+    color: rgb(0, 123, 255);
+    font-weight:bold;
+    text-align:center;
+}
+
+.pht3,.pht4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:70px;
+}
+
+.txt4,.txt5
+{
+    font-size:17px;
+    font-weight:bold;
+    padding-left: 850px;
+    position: relative;  
+    top: -95px;
+}
+
+  
+.pht_gallery 
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 20px auto;  
+    max-width: 1000px;   
+}
+
+.pht_gallery img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
